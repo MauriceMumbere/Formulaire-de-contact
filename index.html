@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contactez-nous</h1>
+        <hr>
+        <form>
+            <div class="flex gap-m">
+                <div class="flex flex-direction-column gap-l flex-1">
+                    <div class="flex flex-direction-column">
+                        <label for="prenom">Votre prenom</label>
+                        <input type="text" id="prenom">
+                    </div>
+                    <div class="flex flex-direction-column">
+                        <label for="e-mail">Votre adresse e-mail</label>
+                        <input type="text" id="e-mail">
+                    </div>
+                    <div class="flex flex-direction-column">
+                        <label for="téléphone">Votre téléphone</label>
+                        <input type="text" id="téléphone">
+                    </div>
+                </div>
+                <div class="flex flex-direction-column flex-1">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Saisissez ici..."></textarea>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="button">Envoyer le message</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
